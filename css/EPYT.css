@@ -1,0 +1,12 @@
+.epyt-gallery-thumb {
+    width: 33.333%;
+}
+
+     @media (min-width:0px) and (max-width: 767px) {
+        .epyt-gallery-rowbreak {
+            display: none;
+        }
+        .epyt-gallery-allthumbs[class*="epyt-cols"] .epyt-gallery-thumb {
+            width: 100% !important;
+        }
+      }
